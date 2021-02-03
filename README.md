@@ -1,11 +1,11 @@
 # README
-This template has Rails / ActiveAdmin / Devise
+## This template has Rails / ActiveAdmin / Devise
 
 Static pages for
 - Aboout
 - Privacy
 - Terms of use
-
+## Useful bits
 - ```git clone <repo>```
 - ```cd <app directory>```
 - ```docker-compose run --rm web bundle```
