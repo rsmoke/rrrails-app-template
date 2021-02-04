@@ -12,6 +12,7 @@ Static pages for
 - edit database.yml to reflect name of your application
 - ```docker-compose run --rm web rails db:create```
 - ```docker-compose run --rm web rails db:migrate```
+- ```docker-compose run --rm web rails db:seed```
 - ```docker-compose run --rm web yarn```
 - ```docker-compose up```
 
