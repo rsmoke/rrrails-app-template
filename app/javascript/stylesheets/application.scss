@@ -6,7 +6,24 @@
   input {
     @apply border border-gray-500;
   }
-  h1 {
-    @apply text-xl font-bold;
+}
+
+.flash {
+  @apply text-lg;
+  &.alert {
+    @apply text-yellow-600;
+  } 
+  &.notice {
+    @apply text-green-600;
+  } 
+}
+
+h1 {
+  @apply text-xl;
+}
+
+footer a {
+  &:hover {
+    color: gold;
   }
 }
