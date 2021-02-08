@@ -34,3 +34,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# if you use ctags you do not want to add the tags file -- or do we????
+tags
