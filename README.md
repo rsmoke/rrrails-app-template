@@ -24,5 +24,5 @@ Look for your application in a browser: localhost:3001
 #### If you add anything to the app you will need to run
 ```docker-compose up --build```
 
-### Intial Admin Creds (CHANGE THIS!!)
+### Initial Admin Creds (CHANGE THIS!!)
 ```UserID: admin@example.com PWD: password```
