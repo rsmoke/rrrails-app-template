@@ -2,7 +2,7 @@
 ## This template has Rails / ActiveAdmin / Devise
 
 Static pages for
-- Aboout
+- About
 - Privacy
 - Terms of use
 ## Useful bits
@@ -16,15 +16,13 @@ Static pages for
 - ```docker-compose run --rm web yarn```
 - ```docker-compose up```
 
-look for your application in a browser: localhost:3001
+Look for your application in a browser: localhost:3001
 
-- run the following command if see errors in localhost:30001
-- ```docker-compose run --rm web yarn upgrade```
-
-#### If you add anything to the app you will need to run ??????
-```
-docker-compose up --build
-````
 ### If your app is ugly run
-```docker-compose run --rm web yarn```
-- then call Rita B for help
+```docker-compose run --rm web yarn upgrade```
+
+#### If you add anything to the app you will need to run
+```docker-compose up --build```
+
+### Intial Admin Creds (CHANGE THIS!!)
+```UserID: admin@example.com PWD: password```
